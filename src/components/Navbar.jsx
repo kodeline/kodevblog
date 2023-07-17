@@ -26,7 +26,7 @@ export default function Navbar() {
 												<span className="ml-2 font-bold">HTML</span>
 											</div>
 										</li>
-										<li className="flex xl:hidden flex-col cursor-pointer text-gray-600 text-sm leading-3 tracking-normal py-2 hover:text-indigo-700 focus:text-indigo-700 focus:outline-none flex justify-center">
+										<li className="flex xl:hidden flex-col cursor-pointer text-gray-600 text-sm leading-3 tracking-normal py-2 hover:text-indigo-700 focus:text-indigo-700 focus:outline-none justify-center">
 											<div className="flex items-center">
 												<RiCss3Line />
 												<span className="ml-2 font-bold">CSS</span>
@@ -36,7 +36,7 @@ export default function Navbar() {
 											<SiTypescript />
 											<span className="ml-2 font-bold">TypeScript</span>
 										</li>
-										<li className="border-b border-gray-300 flex xl:hidden cursor-pointer text-gray-600 text-sm leading-3 tracking-normal pt-2 pb-4 hover:text-indigo-700 flex items-center focus:text-indigo-700 focus:outline-none">
+										<li className="border-b border-gray-300 flex xl:hidden cursor-pointer text-gray-600 text-sm leading-3 tracking-normal pt-2 pb-4 hover:text-indigo-700 items-center focus:text-indigo-700 focus:outline-none">
 											<SiJavascript />
 											<span className="ml-2 font-bold">JavaScript</span>
 										</li>
