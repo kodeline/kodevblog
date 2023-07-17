@@ -1,5 +1,5 @@
 export async function getPosts() {
-  const request = await fetch('https://kodeline.github.io/kodegames-api/data.json');
+  const request = await fetch('https://kodeline.github.io/apis-json/posts.json');
   const posts = await request.json();
   
   return posts;
